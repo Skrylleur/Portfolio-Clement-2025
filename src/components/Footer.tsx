@@ -8,7 +8,7 @@ export default function Footer() {
         
         {/* Texte gauche */}
         <p className="text-center md:text-left">
-          &copy; {new Date().getFullYear()} Mateo LEGIGAN · Développé avec Next.js par{' '}
+          &copy; {new Date().getFullYear()} Clement PAPILLON · Développé avec Next.js par{' '}
           <a
             href="https://gourinchas.com"
             target="_blank"
@@ -33,14 +33,14 @@ export default function Footer() {
         {/* Icônes sociales */}
         <div className="flex gap-4">
           <a
-            href="mailto:mateo.legigan@sts-sio-caen.info"
+            href="mailto:clementpapillon61@gmail.com"
             className="hover:text-[#2d5fff] transition"
             title="Me contacter"
           >
             ✉️
           </a>
           <a
-            href="https://www.linkedin.com/in/mateo-legigan/"
+            href="https://www.linkedin.com/in/clément-papillon/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#2d5fff] transition"

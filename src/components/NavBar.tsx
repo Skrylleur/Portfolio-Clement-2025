@@ -18,7 +18,7 @@ export default function NavBar() {
       <div className="max-w-7xl mx-auto px-8 py-6 flex justify-between items-center">
         <Link href="/">
           <h1 className="text-2xl font-bold hover:opacity-80 transition cursor-pointer">
-            Mateo LEGIGAN
+            Clement PAPILLON
           </h1>
         </Link>
 

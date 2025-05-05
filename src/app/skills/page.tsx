@@ -8,47 +8,21 @@ export default function SkillsPage() {
           Compétences
         </h1>
         <p className="text-2xl font-light text-gray-800">
-          Un aperçu des langages, frameworks et méthodes que j&apos;utilise.
+          Un aperçu des compétences que j’ai acquises en entreprise ainsi qu&apos;en formation.
         </p>
       </div>
 
-      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-6">
-        {[
-          {
-            title: 'Langues',
-            items: ['Anglais']
-          },
-          {
-            title: 'Développement front-end',
-            items: ['HTML / CSS', 'Razor']
-          },
-          {
-            title: 'Langages',
-            items: ['Kotlin', 'Python', 'C#', 'JavaScript / TypeScript', 'PHP']
-          },
-          {
-            title: 'Frameworks',
-            items: ['Spring Boot', 'React', 'Next.js', '.NET 8 / Blazor']
-          },
-          {
-            title: 'Conception & gestion de projet',
-            items: ['Agile', 'Scrum', 'UML']
-          }
-        ].map((section, i) => (
-          <div
-            key={i}
-            className={`bg-white border border-[#0c1c3c] rounded-xl p-6 shadow-sm ${
-              section.title === 'Conception & gestion de projet' ? 'md:col-span-2' : ''
-            }`}
-          >
-            <h2 className="text-xl font-bold mb-3">{section.title}</h2>
-            <ul className="list-disc list-inside text-gray-700 leading-relaxed">
-              {section.items.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
+      <div className="max-w-3xl w-full bg-white border border-[#0c1c3c] rounded-xl p-8 shadow-sm">
+        <h2 className="text-2xl font-bold mb-4">Compétences techniques et professionnelles</h2>
+        <ul className="list-disc list-inside text-gray-800 text-lg space-y-2">
+          <li>Configuration de matériel réseau</li>
+          <li>Gestion de projets</li>
+          <li>Support informatique</li>
+          <li>Gestion de parc informatique</li>
+          <li>Formation des collaborateurs aux nouvelles applications</li>
+          <li>Utilisation des systèmes d’exploitation Linux et Microsoft</li>
+          <li>Exploitation des outils bureautiques</li>
+        </ul>
       </div>
     </main>
   )

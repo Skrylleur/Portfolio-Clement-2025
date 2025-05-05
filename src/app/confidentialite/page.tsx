@@ -7,7 +7,7 @@ export default function ConfidentialitePage() {
         <h1 className="text-4xl font-bold mb-4">Politique de confidentialité</h1>
 
         <p>
-          Cette politique de confidentialité explique comment les données personnelles sont traitées sur le site <strong>mateo-legigan.netlify.app</strong>.
+          Cette politique de confidentialité explique comment les données personnelles sont traitées sur le site <strong>https://portfolio-clement-papillon.netlify.app</strong>.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8">1. Collecte de données</h2>
@@ -28,7 +28,7 @@ export default function ConfidentialitePage() {
         <h2 className="text-2xl font-semibold mt-8">4. Contact</h2>
         <p>
           Pour toute question concernant la confidentialité, vous pouvez envoyer un e-mail à :{' '}
-          <a href="mailto:antonin.gourinchas@gmail.com" className="underline hover:text-[#2d5fff]">mateo.legigan@sts-sio-caen.info</a>.
+          <a href="mailto:antonin.gourinchas@gmail.com" className="underline hover:text-[#2d5fff]">antonin.gourinchas@gmail.com</a>.
         </p>
 
         <p className="mt-8 text-sm text-gray-500 italic">
