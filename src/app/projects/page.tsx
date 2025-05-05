@@ -158,6 +158,16 @@ export default function ProjectsPage() {
           </a>
         </div>
         <br />
+        <a
+            href="https://all-it-network.com/configuration-wifi/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block text-sm font-medium text-[#0c1c3c] underline hover:text-[#2d5fff] transition"
+          >
+            Voir procédure configuration borne wifi CISCO 1142
+          </a>          
+        <br />
+        <br />
           <h3 className="font-semibold mb-1">Compétences réalisées :</h3>
           <ul className="list-disc list-inside text-gray-700">
             <li>Mettre en place son environnement d&apos;apprentissage personnel</li>
