@@ -92,7 +92,7 @@ export default function ProjectsPage() {
         <div className="bg-white border border-[#0c1c3c] rounded-xl p-6 shadow-sm">
           <h2 className="text-xl font-bold mb-2">Migration Windows 11</h2>
           <img
-            src="/images/R5-2.png"
+            src="/images/R5-1.png"
             alt="Illustration du projet – gestion du patrimoine informatique"
             className="mb-4 w-full h-auto rounded-md shadow-sm"
           />
