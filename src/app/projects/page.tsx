@@ -44,7 +44,8 @@ export default function ProjectsPage() {
           </p>
           <h3 className="font-semibold mb-1">Compétences réalisées :</h3>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Répondre aux incidents et demandes d’assistance</li>
+            <li>Répondre aux incidents et aux demandes d’assistance et d&apos;évolution</li>
+            <li>Gérer le patrimoine informatique</li>
           </ul>
         </div>
 
@@ -61,7 +62,7 @@ export default function ProjectsPage() {
           </p>
           <h3 className="font-semibold mb-1">Compétences réalisées :</h3>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Mettre à disposition des utilisateurs un service informatique</li>
+            <li>Développer la présence en ligne de l&apos;organisation</li>
           </ul>
         </div>
 
@@ -84,7 +85,6 @@ export default function ProjectsPage() {
           <h3 className="font-semibold mb-1">Compétences réalisées :</h3>
           <ul className="list-disc list-inside text-gray-700">
             <li>Travailler en mode projet</li>
-            <li>Sensibiliser à la cybersécurité</li>
           </ul>
         </div>
 
@@ -106,7 +106,8 @@ export default function ProjectsPage() {
           </p>
           <h3 className="font-semibold mb-1">Compétences réalisées :</h3>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Gérer le patrimoine informatique</li>
+            <li>Travailler en mode projet</li>
+            <li>Mettre à disposition des utilisateurs un service informatique</li>
           </ul>
         </div>
 
@@ -160,6 +161,7 @@ export default function ProjectsPage() {
           <h3 className="font-semibold mb-1">Compétences réalisées :</h3>
           <ul className="list-disc list-inside text-gray-700">
             <li>Mettre en place son environnement d&apos;apprentissage personnel</li>
+            <li>Gérer le patrimoine informatique</li>
           </ul>
         </div>
 
