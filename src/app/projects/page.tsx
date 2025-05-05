@@ -107,7 +107,59 @@ export default function ProjectsPage() {
           <h3 className="font-semibold mb-1">Compétences réalisées :</h3>
           <ul className="list-disc list-inside text-gray-700">
             <li>Gérer le patrimoine informatique</li>
-            <li>Accompagner le changement</li>
+          </ul>
+        </div>
+
+        {/* 6. Certifications */}
+        <div className="bg-white border border-[#0c1c3c] rounded-xl p-6 shadow-sm">
+          <h2 className="text-xl font-bold mb-2">Certifications</h2>
+          <img
+            src="/images/R6-1.png"
+            alt="Illustration du projet – gestion du patrimoine informatique"
+            className="mb-4 w-full h-auto rounded-md shadow-sm"
+          />
+          <img
+            src="/images/R6-2.png"
+            alt="Illustration du projet – gestion du patrimoine informatique"
+            className="mb-4 w-full h-auto rounded-md shadow-sm"
+          />
+          <img
+            src="/images/R6-3.png"
+            alt="Illustration du projet – gestion du patrimoine informatique"
+            className="mb-4 w-full h-auto rounded-md shadow-sm"
+          />
+          <h3 className="font-semibold mb-1">Compétences réalisées :</h3>
+          <ul className="list-disc list-inside text-gray-700">
+            <li>Mettre en place son environnement d&apos;apprentissage personnel</li>
+            <li>Développer son projet professionnel</li>
+          </ul>
+        </div>
+
+        {/* 6. Procédures */}
+        <div className="bg-white border border-[#0c1c3c] rounded-xl p-6 shadow-sm">
+          <h2 className="text-xl font-bold mb-2">Réalisation de procédures en cours de formation</h2>
+
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+          <a
+            href="documents/PAPILLON Clément - Procédure Inter-vlan-ACL.pdf"
+            download
+            className="inline-block px-6 py-3 border border-[#0c1c3c] text-[#0c1c3c] rounded-md font-medium hover:bg-[#f0c98e] transition"
+          >
+            Télécharger ma procédure Inter-vlan-ACL
+          </a>
+
+          <a
+            href="documents/Procédure RAID, LVM.pdf"
+            download
+            className="inline-block px-6 py-3 border border-[#0c1c3c] text-[#0c1c3c] rounded-md font-medium hover:bg-[#f0c98e] transition"
+          >
+            Télécharger ma procédure RAID, LVM
+          </a>
+        </div>
+        <br />
+          <h3 className="font-semibold mb-1">Compétences réalisées :</h3>
+          <ul className="list-disc list-inside text-gray-700">
+            <li>Mettre en place son environnement d&apos;apprentissage personnel</li>
           </ul>
         </div>
 
